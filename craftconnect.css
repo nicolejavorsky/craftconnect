@@ -55,6 +55,21 @@ a:active {
 	height: 800px;
 }
 
+#craft {
+	background-image: url("white_wall.png");
+	height: 800px;
+}
+
+#connect {
+	background-image: url("bo_play_pattern.png");
+	height: 800px;
+}
+
+#faq {
+	background-image: url("noisy_grid.png");
+	height: 800px;
+}
+
 #aboutcontent {
 	position: relative;
 	top: 200px;
