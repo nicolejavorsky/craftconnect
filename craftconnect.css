@@ -48,3 +48,10 @@ a:active {
 	background-color: red;
 	height: 800px;
 }
+
+#aboutcontent {
+	position: relative;
+	top: 200px;
+	left: 50px;
+	font-size: 36px;
+}
