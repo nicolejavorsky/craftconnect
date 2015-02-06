@@ -61,12 +61,24 @@ a:active {
 	left: 50px;
 }
 
-#abouttitle {
-	font-size: 32px;
+.step {
+	font-size: 28px;
 	color: #CC3333;
 }
 
 #aboutinfo {
 	font-size: 20px;
 	color: gray;
+	width: 900px;
+	position: relative;
+	left: 50px;
+}
+
+.title {
+	font-size: 32px;
+	color: gray;
+	width: 1200px;
+	position: relative;
+	left: 50px;
+
 }
