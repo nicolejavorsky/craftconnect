@@ -1,7 +1,9 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
-	margin: 0;
+	margin: 0 auto;
+	background-color: gray;
+	max-width: 1280px;
 }
 
 #pagewrap {
@@ -114,7 +116,7 @@ a:active {
 
 #main-nav {
     width: 100%;
-    height: 70px;
+    height: 20px;
     background: #f2f2f2;
     position: relative;
     top: 250px;
@@ -140,19 +142,23 @@ a:active {
 }
 #main-nav .subnav li a {
     color: #333;
-    height: 30px;
-    padding:10px 0;
+    height: 50px;
+    padding: 10px 0;
     font-size:13px;
 }
-#main-nav .subnav li a:hover {
+#main-nav .subnav li a:hover]] {
     background:#f9f9f9;
 }
 #nav-primary {
     list-style-type: none;
-    margin: 5;
     float: center;
     padding: 5;
 }
+
+ #nav-primary li:hover ul {
+ 	display: block;
+ }
+
 #nav-primary li {
     float: left;
     position: relative;
@@ -176,7 +182,17 @@ a:active {
     display: block;
 }
 
-#notmenu {
+.notmenu {
 	position: relative;
 	z-index: -10;
 }
+
+section {
+	height: 800px;
+}
+
+#linus {
+	position: relative;
+	top: 100px;
+}
+
