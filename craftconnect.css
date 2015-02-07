@@ -54,13 +54,8 @@ a:active {
 	height: 800px;
 }
 
-#discover {
-	background-color: #CC3333;
-	height: 800px;
-}
-
 #craft {
-	background-image: url("white_wall.png");
+	background-image: url("struckaxiom.png");
 	height: 800px;
 }
 
@@ -72,6 +67,13 @@ a:active {
 #faq {
 	background-image: url("noisy_grid.png");
 	height: 800px;
+}
+
+.org {
+	background-image: url("noisy_grid.png");
+	height: 800px;
+	position: relative;
+	top: 50px;
 }
 
 .content {
@@ -101,11 +103,77 @@ a:active {
 	width: 1200px;
 	position: relative;
 	left: 50px;
-
 }
 
-form {
+.title2 {
+	font-size: 32px;
+	color: #CC3333;
+	width: 1200px;
 	position: relative;
-	left: 500px;
+	left: 50px;
 	top: 200px;
+}
+
+#main-nav {
+    width: 100%;
+    height: 70px;
+    background: #f2f2f2;
+    position: relative;
+    top: 250px;
+}
+
+#main-nav .subnav {
+    display: none;
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    width: 100%;
+    list-style-type: none;
+    background: #fff;
+    margin: 0;
+    border:solid 1px #eeeeee;
+    z-index:5;
+    padding:0;
+}
+#main-nav .subnav li {
+    display: block;
+    border-bottom: solid 1px #eeeeee;
+    margin:0;
+}
+#main-nav .subnav li a {
+    color: #333;
+    height: 30px;
+    padding:10px 0;
+    font-size:13px;
+}
+#main-nav .subnav li a:hover {
+    background:#f9f9f9;
+}
+#nav-primary {
+    list-style-type: none;
+    margin: 5;
+    float: center;
+    padding: 5;
+}
+#nav-primary li {
+    float: left;
+    position: relative;
+}
+
+#nav-primary li a {
+    float: left;
+    color: gray;
+    text-align: center;
+    font-size: 28px;
+    height: 48px;
+    padding-top: 19px;
+    line-height: 16px;
+    width: 400px;
+    text-decoration:none;
+}
+#nav-primary li a:hover {
+    text-decoration:none;
+}
+#nav-primary li:hover .subnav {
+    display: block;
 }
