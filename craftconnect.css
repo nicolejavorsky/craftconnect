@@ -60,7 +60,7 @@ a:active {
 }
 
 #connect {
-	background-image: url("bo_play_pattern.png");
+	background-image: url("symphony.png");
 	height: 800px;
 }
 
@@ -71,9 +71,7 @@ a:active {
 
 .org {
 	background-image: url("noisy_grid.png");
-	height: 800px;
-	position: relative;
-	top: 50px;
+	overflow: scroll;
 }
 
 .content {
@@ -102,7 +100,7 @@ a:active {
 	color: gray;
 	width: 1200px;
 	position: relative;
-	left: 50px;
+	left: 10px;
 }
 
 .title2 {
@@ -176,4 +174,9 @@ a:active {
 }
 #nav-primary li:hover .subnav {
     display: block;
+}
+
+#notmenu {
+	position: relative;
+	z-index: -10;
 }
